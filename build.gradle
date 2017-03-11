@@ -1,0 +1,111 @@
+buildscript {
+  repositories {
+    jcenter()
+  }
+  dependencies {
+    classpath 'net.researchgate:gradle-release:2.2.1'
+    classpath 'se.transmode.gradle:gradle-docker:1.2'
+  }
+}
+
+
+plugins {
+  id 'idea'
+  id 'application'
+  id 'com.github.johnrengelman.shadow' version '1.2.3'
+  id 'net.researchgate.release' version '2.1.2'
+}
+
+apply plugin: 'docker'
+apply plugin: 'maven'
+sourceCompatibility = 1.8
+
+repositories {
+  jcenter()
+}
+
+//repositories {
+//  maven {
+//    url "http://artifactory.corp.olacabs.com:8080/artifactory/libs-release-local"
+//  }
+//}
+
+apply plugin: 'pmd'
+
+pmd {
+  toolVersion = '4.3'
+}
+
+pmdMain {
+  ruleSets = [ "basic", "braces" ]
+}
+
+def appName = 'api_getaway'
+String versionFile = new File('version.properties').text
+def (versionKey,versionValue) = versionFile.tokenize('=')
+def version = versionValue.replaceAll("\\s","")
+
+mainClassName = 'com.awign.poc.ApplicationLauncher'
+def vertxVersion = '3.3.3'
+def watchForChange = 'src/**/*'
+def doOnChange = './gradlew classes'
+
+dependencies {
+  compile "io.vertx:vertx-core:$vertxVersion"
+  compile "io.vertx:vertx-web:$vertxVersion"
+  compile "io.vertx:vertx-mongo-client:$vertxVersion"
+  testCompile "junit:junit:4.12"
+  testCompile "io.vertx:vertx-unit:$vertxVersion"
+}
+run {
+  args = ['run', mainClassName, "--redeploy=$watchForChange", "--launcher-class=$mainClassName", "--on-redeploy=$doOnChange"]
+}
+
+//ShadowJar Building
+shadowJar {
+  baseName = appName
+  classifier = 'fat'
+  manifest {
+    attributes "Main-Class": mainClassName
+  }
+  mergeServiceFiles {
+    include 'META-INF/services/io.vertx.core.spi.VerticleFactory'
+  }
+}
+
+task copyShadowJar(type: Copy, dependsOn: tasks.shadowJar) {
+  from "build/libs/$appName-$version-fat.jar"
+  into "build/docker/build/libs/"
+}
+
+task copyJars(type: Copy, dependsOn: tasks.copyShadowJar){
+  from "jars/"
+  into "build/docker/jars/"
+}
+
+task copyConfig(type: Copy, dependsOn: tasks.copyJars){
+  from "config/"
+  into "build/docker/config/"
+}
+
+task buildImage(type: Docker, dependsOn: tasks.copyConfig){
+  push = false
+  applicationName = appName
+  dockerfile = file('Dockerfile')
+  doFirst {
+    copy {
+      from "init.sh"
+      into stageDir
+    }
+    copy {
+      from "shard.properties"
+      into stageDir
+    }
+  }
+}
+
+task wrapper(type: Wrapper) {
+  gradleVersion = '3.1'
+}
+
+afterReleaseBuild.dependsOn allprojects.uploadArchives

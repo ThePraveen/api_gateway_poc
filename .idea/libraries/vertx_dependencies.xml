@@ -1,0 +1,30 @@
+<component name="libraryTable">
+  <library name="vertx-dependencies">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.vertx/vertx-dependencies" />
+      <root url="file://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.vertx/vertx-ext" />
+      <root url="file://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.vertx/vertx-ext-parent" />
+      <root url="file://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.vertx/vertx-mongo" />
+      <root url="file://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.vertx/vertx-mongo-client" />
+      <root url="file://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.vertx/vertx-parent" />
+      <root url="file://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.vertx/vertx-unit" />
+      <root url="file://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.vertx/vertx-web" />
+      <root url="file://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.vertx/vertx-web-parent" />
+      <root url="file://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.vertx/vertx-auth-common" />
+      <root url="file://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.vertx/vertx-auth" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.vertx/vertx-auth" recursive="false" />
+    <jarDirectory url="file://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.vertx/vertx-auth-common" recursive="false" />
+    <jarDirectory url="file://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.vertx/vertx-dependencies" recursive="false" />
+    <jarDirectory url="file://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.vertx/vertx-ext" recursive="false" />
+    <jarDirectory url="file://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.vertx/vertx-ext-parent" recursive="false" />
+    <jarDirectory url="file://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.vertx/vertx-mongo" recursive="false" />
+    <jarDirectory url="file://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.vertx/vertx-mongo-client" recursive="false" />
+    <jarDirectory url="file://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.vertx/vertx-parent" recursive="false" />
+    <jarDirectory url="file://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.vertx/vertx-unit" recursive="false" />
+    <jarDirectory url="file://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.vertx/vertx-web" recursive="false" />
+    <jarDirectory url="file://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.vertx/vertx-web-parent" recursive="false" />
+  </library>
+</component>
