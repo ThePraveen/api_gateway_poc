@@ -1,4 +1,4 @@
-package com.awign.poc;
+package com.awign.getaway;
 
 /**
  * Created by nitesh on 11/3/17.

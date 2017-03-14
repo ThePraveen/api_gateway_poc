@@ -1,4 +1,4 @@
-package com.awign.poc.common;
+package com.awign.getaway.common;
 
 import io.vertx.core.Vertx;
 import io.vertx.core.json.JsonObject;

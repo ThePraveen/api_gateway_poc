@@ -1,4 +1,4 @@
-package com.awign.poc;
+package com.awign.getaway;
 
 import io.vertx.core.Vertx;
 import io.vertx.core.http.HttpServer;

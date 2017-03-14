@@ -1,7 +1,8 @@
-package com.awign.poc;
+package com.awign.getaway;
 
-import com.awign.poc.common.DBMongo;
-import com.awign.poc.receiver.ReceiverVerticle;
+import com.awign.getaway.common.DBMongo;
+import com.awign.getaway.receiver.ReceiverVerticle;
+import com.awign.getaway.session.SessionVerticle;
 import io.vertx.core.DeploymentOptions;
 import io.vertx.core.Vertx;
 import io.vertx.core.json.DecodeException;
@@ -12,7 +13,7 @@ import io.vertx.ext.web.Router;
 import io.vertx.ext.web.handler.BodyHandler;
 import io.vertx.ext.web.handler.CookieHandler;
 
-import java.
+import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 
@@ -46,6 +47,7 @@ public class ApplicationLauncher{
     //Deploy all the verticles here
     vertx.deployVerticle(new ApplicationVerticle(router));
     vertx.deployVerticle(new ReceiverVerticle(router));
+    vertx.deployVerticle(new SessionVerticle(router));
 
     try {
       //Starting Server

@@ -45,7 +45,7 @@ String versionFile = new File('version.properties').text
 def (versionKey,versionValue) = versionFile.tokenize('=')
 def version = versionValue.replaceAll("\\s","")
 
-mainClassName = 'com.awign.poc.ApplicationLauncher'
+mainClassName = 'com.awign.getaway.ApplicationLauncher'
 def vertxVersion = '3.3.3'
 def watchForChange = 'src/**/*'
 def doOnChange = './gradlew classes'
@@ -54,6 +54,7 @@ dependencies {
   compile "io.vertx:vertx-core:$vertxVersion"
   compile "io.vertx:vertx-web:$vertxVersion"
   compile "io.vertx:vertx-mongo-client:$vertxVersion"
+  compile 'redis.clients:jedis:2.9.0'
   testCompile "junit:junit:4.12"
   testCompile "io.vertx:vertx-unit:$vertxVersion"
 }

@@ -1,7 +1,7 @@
-package com.awign.poc.receiver.models;
+package com.awign.getaway.receiver.models;
 
-import com.awign.poc.common.DBMongo;
-import com.awign.poc.common.DBWrapper;
+import com.awign.getaway.common.DBMongo;
+import com.awign.getaway.common.DBWrapper;
 import io.vertx.core.json.Json;
 import io.vertx.core.json.JsonObject;
 

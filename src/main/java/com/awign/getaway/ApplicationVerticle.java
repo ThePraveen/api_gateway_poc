@@ -1,4 +1,4 @@
-package com.awign.poc;
+package com.awign.getaway;
 
 import io.vertx.core.AbstractVerticle;
 import io.vertx.core.Context;
