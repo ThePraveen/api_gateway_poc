@@ -29,4 +29,3 @@ To build the project, just use:
 GET  http://localhost:8080/session/api/fetch/{session_key}
 POST http://localhost:8080/session/api/save
  { "key" : "session_key", "value" : "session_value" }
-----
