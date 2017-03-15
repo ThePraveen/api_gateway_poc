@@ -12,6 +12,7 @@ Once you have retrieved the project, you can check that everything works with:
 [source]
 ----
 ./gradlew test run
+----
 
 == Building the project
 
