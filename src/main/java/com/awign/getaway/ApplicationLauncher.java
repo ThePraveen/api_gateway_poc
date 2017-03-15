@@ -1,7 +1,6 @@
 package com.awign.getaway;
 
-import com.awign.getaway.common.DBMongo;
-import com.awign.getaway.receiver.ReceiverVerticle;
+import com.awign.getaway.common.DBRedis;
 import com.awign.getaway.session.SessionVerticle;
 import io.vertx.core.DeploymentOptions;
 import io.vertx.core.Vertx;
@@ -42,11 +41,10 @@ public class ApplicationLauncher{
 
     //DB and Services initialization
     LOG.info(String.format("Initializing DB Connection with config : %s",deploymentOptions.getConfig().toString()));
-    DBMongo.initialize(vertx, deploymentOptions.getConfig());
+    DBRedis.initialize(vertx, deploymentOptions.getConfig());
 
     //Deploy all the verticles here
     vertx.deployVerticle(new ApplicationVerticle(router));
-    vertx.deployVerticle(new ReceiverVerticle(router));
     vertx.deployVerticle(new SessionVerticle(router));
 
     try {

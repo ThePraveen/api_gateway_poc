@@ -87,3 +87,9 @@ The whole configuration for this is rather simple:
     run {
         args = ['run', mainVerticleName, "--redeploy=$watchForChange", "--launcher-class=$mainClassName", "--on-redeploy=$doOnChange"]
     }
+
+
+API details :-
+GET  http://localhost:8080/session/api/fetch/{session_key}
+POST http://localhost:8080/session/api/save
+ { "key" : "session_key", "value" : "session_value" }

@@ -7,13 +7,13 @@ import java.util.List;
  */
 public interface DBWrapper {
 
-  boolean save() throws DBMongo.InitializeException;
+  boolean save() throws DBRedis.InitializeException;
 
-  boolean update() throws DBMongo.InitializeException;
+  boolean update() throws DBRedis.InitializeException;
 
-  boolean delete() throws DBMongo.InitializeException;
+  boolean delete() throws DBRedis.InitializeException;
 
-  DBWrapper getOne() throws DBMongo.InitializeException;
+  DBWrapper getOne() throws DBRedis.InitializeException;
 
-  List<DBWrapper> getAll() throws DBMongo.InitializeException;
+  List<DBWrapper> getAll() throws DBRedis.InitializeException;
 }

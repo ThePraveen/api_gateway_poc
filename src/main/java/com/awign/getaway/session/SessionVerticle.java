@@ -3,6 +3,8 @@ package com.awign.getaway.session;
 /**
  * Created by nitesh on 14/3/17.
  */
+import com.awign.getaway.common.DBRedis;
+import com.awign.getaway.session.models.Session;
 import io.vertx.core.AbstractVerticle;
 import io.vertx.core.http.HttpServerResponse;
 import io.vertx.core.json.Json;
@@ -26,19 +28,42 @@ public class SessionVerticle extends AbstractVerticle {
   @Override
   public void start() {
 
-    LOG.info("-------    Starting ETAVerticle    -------");
+    LOG.info("-------    Starting SessionVerticle    -------");
 
     //Receiver sub-router
     Router sessionRouter = Router.router(vertx);
 
     //receiver route handler
-    sessionRouter.post("/api/post").handler( routingContext -> {
-      LOG.info("request to receiver endpoint.");
+    sessionRouter.post("/api/save").handler( routingContext -> {
+      LOG.info("request to save session.");
       HttpServerResponse response = routingContext.response();
       response.putHeader("content-type","application/json");
       JsonObject requestBody = routingContext.getBodyAsJson();
 
-      response.end(Json.encodePrettily(requestBody));
+      Session session = new Session(requestBody.getString("key"), requestBody.getString("value"));
+      Boolean status = false;
+      try {
+        status = session.save();
+      } catch (DBRedis.InitializeException e) {
+        e.printStackTrace();
+      }
+      response.end(Json.encodePrettily(status));
+    });
+
+    sessionRouter.get("/api/fetch/:key").handler( routingContext -> {
+      LOG.info("request to save session.");
+      HttpServerResponse response = routingContext.response();
+      String key = routingContext.request().getParam("key");
+      response.putHeader("content-type","application/json");
+
+      Session session = new Session(key);
+      Boolean status = false;
+      try {
+        session.getOne();
+      } catch (DBRedis.InitializeException e) {
+        e.printStackTrace();
+      }
+      response.end(Json.encodePrettily(status));
     });
 
     //Mounting ETA Router on Application router after path '/eta'

@@ -13,17 +13,6 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/nitesh/.gradle/caches/modules-2/files-2.1/io.vertx/vertx-core/3.3.3/515957df3ba4561b6c53497a6bc992d8d6f565c0/vertx-core-3.3.3.jar!/"/>
-        </CLASSES>
-        <JAVADOC/>
-        <SOURCES>
-          <root url="jar:///home/nitesh/.gradle/caches/modules-2/files-2.1/io.vertx/vertx-core/3.3.3/f8f2e298fd8077bd1f7f28470b5af6bb17c493dd/vertx-core-3.3.3-sources.jar!/"/>
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
           <root url="jar:///home/nitesh/.gradle/caches/modules-2/files-2.1/io.vertx/vertx-web/3.3.3/70adc789af9dae71fe71ead03d268cd0692b3349/vertx-web-3.3.3.jar!/"/>
         </CLASSES>
         <JAVADOC/>
@@ -46,99 +35,11 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/nitesh/.gradle/caches/modules-2/files-2.1/io.netty/netty-common/4.1.5.Final/607f8433d8782445e72abe34e43a7e57e86a5e6c/netty-common-4.1.5.Final.jar!/"/>
+          <root url="jar:///home/nitesh/.gradle/caches/modules-2/files-2.1/io.vertx/vertx-redis-client/3.4.0/4a4cb7da58c298a80f60df0221d5eb6b7c86da25/vertx-redis-client-3.4.0.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/nitesh/.gradle/caches/modules-2/files-2.1/io.netty/netty-common/4.1.5.Final/a5a6eeddced1ba892a21d3be1a29b5d0420825fd/netty-common-4.1.5.Final-sources.jar!/"/>
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar:///home/nitesh/.gradle/caches/modules-2/files-2.1/io.netty/netty-buffer/4.1.5.Final/b5fb6bccda4d63d4a74c9faccdf32f77ab66abc1/netty-buffer-4.1.5.Final.jar!/"/>
-        </CLASSES>
-        <JAVADOC/>
-        <SOURCES>
-          <root url="jar:///home/nitesh/.gradle/caches/modules-2/files-2.1/io.netty/netty-buffer/4.1.5.Final/3387a3a745b2cd3e04b6832123720c97c0acca45/netty-buffer-4.1.5.Final-sources.jar!/"/>
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar:///home/nitesh/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport/4.1.5.Final/37126b370722ff9631ee13c91139aacec0a71d1d/netty-transport-4.1.5.Final.jar!/"/>
-        </CLASSES>
-        <JAVADOC/>
-        <SOURCES>
-          <root url="jar:///home/nitesh/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport/4.1.5.Final/1c8d868031d4198f0fe7da6f43ff7fc90bb23e34/netty-transport-4.1.5.Final-sources.jar!/"/>
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar:///home/nitesh/.gradle/caches/modules-2/files-2.1/io.netty/netty-handler/4.1.5.Final/6262900ee9487e62560030a136160df953b1cd6b/netty-handler-4.1.5.Final.jar!/"/>
-        </CLASSES>
-        <JAVADOC/>
-        <SOURCES>
-          <root url="jar:///home/nitesh/.gradle/caches/modules-2/files-2.1/io.netty/netty-handler/4.1.5.Final/5b9feadb759a56e8dd9a3e8aee867254d39595ed/netty-handler-4.1.5.Final-sources.jar!/"/>
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar:///home/nitesh/.gradle/caches/modules-2/files-2.1/io.netty/netty-handler-proxy/4.1.5.Final/46eebc10fe115eef1203733359071304d993aee8/netty-handler-proxy-4.1.5.Final.jar!/"/>
-        </CLASSES>
-        <JAVADOC/>
-        <SOURCES>
-          <root url="jar:///home/nitesh/.gradle/caches/modules-2/files-2.1/io.netty/netty-handler-proxy/4.1.5.Final/de256e9c535926920d1a5fb4ad04d9416769f30/netty-handler-proxy-4.1.5.Final-sources.jar!/"/>
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar:///home/nitesh/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec-http/4.1.5.Final/87bda1b9ec7e3f75ca721fc87735cbedad2aa1a/netty-codec-http-4.1.5.Final.jar!/"/>
-        </CLASSES>
-        <JAVADOC/>
-        <SOURCES>
-          <root url="jar:///home/nitesh/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec-http/4.1.5.Final/e821587a2ac28faa66a31cb001a6dccace0687ea/netty-codec-http-4.1.5.Final-sources.jar!/"/>
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar:///home/nitesh/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec-http2/4.1.5.Final/6568f4fefc2ce0a8761e5bc14d95a6ba1758be29/netty-codec-http2-4.1.5.Final.jar!/"/>
-        </CLASSES>
-        <JAVADOC/>
-        <SOURCES>
-          <root url="jar:///home/nitesh/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec-http2/4.1.5.Final/fd3f7ae189aa1c7e262338c0148b4d0e7817a83d/netty-codec-http2-4.1.5.Final-sources.jar!/"/>
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar:///home/nitesh/.gradle/caches/modules-2/files-2.1/io.netty/netty-resolver/4.1.5.Final/5f367bedcdc185a727fda3296b9a18014cdc22c4/netty-resolver-4.1.5.Final.jar!/"/>
-        </CLASSES>
-        <JAVADOC/>
-        <SOURCES>
-          <root url="jar:///home/nitesh/.gradle/caches/modules-2/files-2.1/io.netty/netty-resolver/4.1.5.Final/5c43bfdba3b1feb5d573293ce14b413c9bd64147/netty-resolver-4.1.5.Final-sources.jar!/"/>
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar:///home/nitesh/.gradle/caches/modules-2/files-2.1/io.netty/netty-resolver-dns/4.1.5.Final/5c7bc8523cdb5f1870f012afd01e0242e733e133/netty-resolver-dns-4.1.5.Final.jar!/"/>
-        </CLASSES>
-        <JAVADOC/>
-        <SOURCES>
-          <root url="jar:///home/nitesh/.gradle/caches/modules-2/files-2.1/io.netty/netty-resolver-dns/4.1.5.Final/accb14ffbc1762b4aa15540046b4805454465046/netty-resolver-dns-4.1.5.Final-sources.jar!/"/>
+          <root url="jar:///home/nitesh/.gradle/caches/modules-2/files-2.1/io.vertx/vertx-redis-client/3.4.0/2a247c59aaa371e0f54b9f5510a8ac026677314a/vertx-redis-client-3.4.0-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
@@ -189,33 +90,33 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/nitesh/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec/4.1.5.Final/66bbf9324fa36467d041083f89328e2a24ec4f67/netty-codec-4.1.5.Final.jar!/"/>
+          <root url="jar:///home/nitesh/.gradle/caches/modules-2/files-2.1/org.mongodb/mongodb-driver-core/3.2.2/5fe989e7863333970ab0698f18c2ae9d3cb1b2d0/mongodb-driver-core-3.2.2.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/nitesh/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec/4.1.5.Final/9706cf08ff03e11dc05ba10718902cf1467ec34f/netty-codec-4.1.5.Final-sources.jar!/"/>
+          <root url="jar:///home/nitesh/.gradle/caches/modules-2/files-2.1/org.mongodb/mongodb-driver-core/3.2.2/5fe1df8cf683cecc84677ce4f2761cbabf323f5d/mongodb-driver-core-3.2.2-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/nitesh/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec-socks/4.1.5.Final/9e3f0891d43404cda3d61312c169b4472e2a5e82/netty-codec-socks-4.1.5.Final.jar!/"/>
+          <root url="jar:///home/nitesh/.gradle/caches/modules-2/files-2.1/org.mongodb/bson/3.2.2/b0278bca693eeb91e14db32aea0987a0eed99336/bson-3.2.2.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/nitesh/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec-socks/4.1.5.Final/cdf55f050ee59498f90672daaa67a986ca3e440/netty-codec-socks-4.1.5.Final-sources.jar!/"/>
+          <root url="jar:///home/nitesh/.gradle/caches/modules-2/files-2.1/org.mongodb/bson/3.2.2/18099cbd8045e5a4caee1093e41d0f2dad3d86be/bson-3.2.2-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/nitesh/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec-dns/4.1.5.Final/2b562b231fc61431df4da2084ec9863809fad131/netty-codec-dns-4.1.5.Final.jar!/"/>
+          <root url="jar:///home/nitesh/.gradle/caches/modules-2/files-2.1/io.vertx/vertx-core/3.4.0/ef019d9edc6c727eca62199fd06339fd27b79668/vertx-core-3.4.0.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/nitesh/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec-dns/4.1.5.Final/5e4966c33bb2ef43ade4d368b0c94a69d4ec4a4a/netty-codec-dns-4.1.5.Final-sources.jar!/"/>
+          <root url="jar:///home/nitesh/.gradle/caches/modules-2/files-2.1/io.vertx/vertx-core/3.4.0/d53ce8ca3a5c3dee889c3f4a54d792fe6af80ebb/vertx-core-3.4.0-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
@@ -233,22 +134,132 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/nitesh/.gradle/caches/modules-2/files-2.1/org.mongodb/mongodb-driver-core/3.2.2/5fe989e7863333970ab0698f18c2ae9d3cb1b2d0/mongodb-driver-core-3.2.2.jar!/"/>
+          <root url="jar:///home/nitesh/.gradle/caches/modules-2/files-2.1/io.netty/netty-common/4.1.8.Final/ee62c80318413d2375d145e51e48d7d35c901324/netty-common-4.1.8.Final.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/nitesh/.gradle/caches/modules-2/files-2.1/org.mongodb/mongodb-driver-core/3.2.2/5fe1df8cf683cecc84677ce4f2761cbabf323f5d/mongodb-driver-core-3.2.2-sources.jar!/"/>
+          <root url="jar:///home/nitesh/.gradle/caches/modules-2/files-2.1/io.netty/netty-common/4.1.8.Final/2af1bbac4a9f572a26de6709ae8a0c50f95c0d47/netty-common-4.1.8.Final-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/nitesh/.gradle/caches/modules-2/files-2.1/org.mongodb/bson/3.2.2/b0278bca693eeb91e14db32aea0987a0eed99336/bson-3.2.2.jar!/"/>
+          <root url="jar:///home/nitesh/.gradle/caches/modules-2/files-2.1/io.netty/netty-buffer/4.1.8.Final/43292c2622e340a0d07178c341ca3bdf3d662034/netty-buffer-4.1.8.Final.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/nitesh/.gradle/caches/modules-2/files-2.1/org.mongodb/bson/3.2.2/18099cbd8045e5a4caee1093e41d0f2dad3d86be/bson-3.2.2-sources.jar!/"/>
+          <root url="jar:///home/nitesh/.gradle/caches/modules-2/files-2.1/io.netty/netty-buffer/4.1.8.Final/1824211b1466e7c128bf3246aa940b81048b0705/netty-buffer-4.1.8.Final-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///home/nitesh/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport/4.1.8.Final/905b5dadce881c9824b3039c0df36dabbb7b6a07/netty-transport-4.1.8.Final.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///home/nitesh/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport/4.1.8.Final/8dde2e759e6d43d395c353a10384337cd70ec370/netty-transport-4.1.8.Final-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///home/nitesh/.gradle/caches/modules-2/files-2.1/io.netty/netty-handler/4.1.8.Final/db01139bfb11afd009a695eef55b43bbf22c4ef5/netty-handler-4.1.8.Final.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///home/nitesh/.gradle/caches/modules-2/files-2.1/io.netty/netty-handler/4.1.8.Final/86c87918efe581d62ffd6b1ec97a3332f5ad328d/netty-handler-4.1.8.Final-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///home/nitesh/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec/4.1.8.Final/1bd0a2d032e5c7fc3f42c1b483d0f4c57eb516a3/netty-codec-4.1.8.Final.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///home/nitesh/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec/4.1.8.Final/59b160860925caf62d471dcec25befb8c5fb9ece/netty-codec-4.1.8.Final-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///home/nitesh/.gradle/caches/modules-2/files-2.1/io.netty/netty-handler-proxy/4.1.8.Final/c4d22e8b9071a0ea8d75766d869496c32648a758/netty-handler-proxy-4.1.8.Final.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///home/nitesh/.gradle/caches/modules-2/files-2.1/io.netty/netty-handler-proxy/4.1.8.Final/e69d98b6b8236d2e3430522ab059e99ae2fdb038/netty-handler-proxy-4.1.8.Final-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///home/nitesh/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec-socks/4.1.8.Final/7f7c5f5b154646d7c571f8ca944fb813f71b1d51/netty-codec-socks-4.1.8.Final.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///home/nitesh/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec-socks/4.1.8.Final/8977ad65c8e2370da542cfd5e3426ea3d7c34ae3/netty-codec-socks-4.1.8.Final-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///home/nitesh/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec-http/4.1.8.Final/1e88617c4a6c88da7e86fdbbd9494d22a250c879/netty-codec-http-4.1.8.Final.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///home/nitesh/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec-http/4.1.8.Final/dfe7c544221d821c85f0b9ce828111db8719dd2e/netty-codec-http-4.1.8.Final-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///home/nitesh/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec-http2/4.1.8.Final/105a99ee5767463370ccc3d2e16800bd99f5648e/netty-codec-http2-4.1.8.Final.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///home/nitesh/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec-http2/4.1.8.Final/533aaa950d8b21fce553180e268c538504acca0a/netty-codec-http2-4.1.8.Final-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///home/nitesh/.gradle/caches/modules-2/files-2.1/io.netty/netty-resolver/4.1.8.Final/2e116cdd5edc01b2305072b1dbbd17c0595dbfef/netty-resolver-4.1.8.Final.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///home/nitesh/.gradle/caches/modules-2/files-2.1/io.netty/netty-resolver/4.1.8.Final/d66ddbbf819dd78942c18186d35b53e48a5bb070/netty-resolver-4.1.8.Final-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///home/nitesh/.gradle/caches/modules-2/files-2.1/io.netty/netty-resolver-dns/4.1.8.Final/e2f8a3919ba592c22ddbf5484708ed02e099c90/netty-resolver-dns-4.1.8.Final.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///home/nitesh/.gradle/caches/modules-2/files-2.1/io.netty/netty-resolver-dns/4.1.8.Final/892d631a2829923fdb0bdabc874668f0f567e65/netty-resolver-dns-4.1.8.Final-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///home/nitesh/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec-dns/4.1.8.Final/dbce8c6486d635db2176889710d784597b5e4a1b/netty-codec-dns-4.1.8.Final.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///home/nitesh/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec-dns/4.1.8.Final/d4167b560e193a9ae7b55b9caa179832a5a22d9f/netty-codec-dns-4.1.8.Final-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
