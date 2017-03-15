@@ -5,6 +5,7 @@ This project is a template to start your own Vert.x project using Gradle.
 == Prerequisites
 
 * JDK 8+
+* Redis
 
 == Getting started
 
@@ -89,7 +90,8 @@ The whole configuration for this is rather simple:
     }
 
 
-API details :-
+== API details
+---------------------------------------------------------
 GET  http://localhost:8080/session/api/fetch/{session_key}
 POST http://localhost:8080/session/api/save
  { "key" : "session_key", "value" : "session_value" }
